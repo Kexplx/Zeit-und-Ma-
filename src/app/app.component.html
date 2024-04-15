@@ -1,0 +1,35 @@
+<div class="container">
+  <!-- Logo and Heading -->
+  <section class="ta-center">
+    <img src="assets/img/logo.webp" alt="Maß und Zeit Logo" />
+    <h1 class="mb-2 mt-1">Maß und Zeit</h1>
+  </section>
+
+  <!-- Fish Search -->
+  <section>
+    <input
+      [(ngModel)]="filterValue"
+      (input)="onInput($any($event.target).value)"
+      type="text"
+      spellcheck="false"
+      class="w-100"
+      placeholder="Fischnamen eingeben..."
+    />
+  </section>
+
+  <!-- Fish List -->
+  <section>
+    <div class="fish-grid mt-3">
+      <small class="grid-full-width ta-center col-secondary"
+        >Es werden {{ filteredFishes.length }} Fische angezeigt</small
+      >
+      @for (fish of filteredFishes; track fish) {
+      <app-fish-card [fish]="fish"></app-fish-card>
+      } @empty {
+      <div class="ta-center col-secondary grid-full-width">
+        Kein Fisch entsprach dem Filter <strong>{{ filterValue }}.</strong>
+      </div>
+      }
+    </div>
+  </section>
+</div>

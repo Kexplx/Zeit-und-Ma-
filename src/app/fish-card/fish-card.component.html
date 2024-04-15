@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-title mb-1">
+    <span>{{ fish().name }}</span>
+
+    @if (canBeFished()) {
+    <img src="assets/img/fish_take_out.webp" alt="" />
+    } @else {
+    <img src="assets/img/fish_leave_in.webp" alt="" />
+    }
+  </div>
+
+  <div class="card-content">
+    <div><strong>Schonzeit: </strong>{{ noFishingPeriod() }}</div>
+    <div class="mt-05">
+      <strong>Schonmaß: </strong>
+      <span>{{ minSize() }}</span>
+    </div>
+  </div>
+</div>
