@@ -79,7 +79,7 @@ export const fishes: Fish[] = [
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
   },
   {
-    name: 'Brachse',
+    name: 'Brachse/Brasse',
     latinName: 'Abramis brama',
     noFishingPeriod: null,
     minSizeInCm: null,

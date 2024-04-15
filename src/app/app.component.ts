@@ -11,17 +11,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent implements AfterViewInit {
-  @ViewChild('filterInputRef') filterInputRef?: ElementRef<HTMLInputElement>;
-
+export class AppComponent {
   readonly fishes = fishes;
   filteredFishes = this.fishes;
 
   filterValue = '';
-
-  ngAfterViewInit(): void {
-    this.filterInputRef?.nativeElement.focus();
-  }
 
   onInput(val: string): void {
     const cleanFn = (s: string) =>
