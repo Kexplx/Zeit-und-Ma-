@@ -11,14 +11,18 @@ input {
 }
 
 input:focus {
-  border-color: #56a3b4;
+  border-color: black;
   border-width: 2px;
+}
+
+a {
+  color: black;
 }
 
 .fish-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 30px;
 }
 
 @media (max-width: 700px) {

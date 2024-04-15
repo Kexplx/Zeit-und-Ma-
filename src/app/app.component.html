@@ -1,8 +1,18 @@
 <div class="container">
   <!-- Logo and Heading -->
-  <section class="ta-center">
+  <section class="ta-center mb-2">
     <img src="assets/img/logo.webp" alt="Maß und Zeit Logo" />
-    <h1 class="mb-2 mt-1">Maß und Zeit</h1>
+    <h1 class="mt-1">Zeit und Maß</h1>
+    <p style="margin-bottom: 5px">
+      Schonzeiten und Schonmaße für Fische in <strong>Bayern</strong>
+    </p>
+
+    <small class="col-secondary">
+      Die Daten beinhalten {{ fishes.length }} Fischarten, gelten für 2024 und beruhen auf
+      <a href="https://www.gesetze-bayern.de/Content/Document/BayAVFiG-ANL_1" target="_blank"
+        >diesem Gesetz</a
+      >.</small
+    >
   </section>
 
   <!-- Fish Search -->
@@ -11,6 +21,7 @@
       [(ngModel)]="filterValue"
       (input)="onInput($any($event.target).value)"
       type="text"
+      #filterInputRef
       spellcheck="false"
       class="w-100"
       placeholder="Fischnamen eingeben..."
@@ -20,16 +31,15 @@
   <!-- Fish List -->
   <section>
     <div class="fish-grid mt-3">
-      <small class="grid-full-width ta-center col-secondary"
-        >Es werden {{ filteredFishes.length }} Fische angezeigt</small
-      >
       @for (fish of filteredFishes; track fish) {
       <app-fish-card [fish]="fish"></app-fish-card>
       } @empty {
-      <div class="ta-center col-secondary grid-full-width">
-        Kein Fisch entsprach dem Filter <strong>{{ filterValue }}.</strong>
+      <div class="ta-center mt-3 col-secondary grid-full-width">
+        Keine Fischart entsprach dem Filter <strong>{{ filterValue }}</strong>
       </div>
       }
     </div>
   </section>
+
+  <p></p>
 </div>

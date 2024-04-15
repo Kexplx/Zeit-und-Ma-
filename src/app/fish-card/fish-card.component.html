@@ -1,12 +1,14 @@
 <div class="card">
-  <div class="card-title mb-1">
-    <span>{{ fish().name }}</span>
+  <div class="card-title mb-2">
+    <div>
+      <span>{{ fish().name }} </span>
+      <br />
+      <small class="col-secondary" style="font-size: 12px">{{ fish().latinName }}</small>
+    </div>
 
-    @if (canBeFished()) {
-    <img src="assets/img/fish_take_out.webp" alt="" />
-    } @else {
-    <img src="assets/img/fish_leave_in.webp" alt="" />
-    }
+    <small [class.bg-green]="canBeFished()" [class.bg-red]="!canBeFished()" class="indicator"
+      >{{ canBeFished() ? 'Nicht in ' : 'In' }} Schonzeit</small
+    >
   </div>
 
   <div class="card-content">
@@ -14,6 +16,10 @@
     <div class="mt-05">
       <strong>Schonmaß: </strong>
       <span>{{ minSize() }}</span>
+    </div>
+    <div class="mt-05">
+      <strong>Einzugsgebiete(e): </strong>
+      <span>{{ catchmentAreas() }}</span>
     </div>
   </div>
 </div>
