@@ -22,8 +22,8 @@ jobs:
 
       - name: Build
         run: |
-          URL=https://kexplx.github.io/zeit-und-mass
-          npm run build --- --base-href /
+          URL=https://kexplx.github.io/zeit-und-mass/
+          npm run build --- --base-href $URL
 
       - name: Deploy Build
         uses: JamesIves/github-pages-deploy-action@v4
