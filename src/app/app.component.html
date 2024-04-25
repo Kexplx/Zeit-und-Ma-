@@ -26,7 +26,7 @@
     <input
       [(ngModel)]="filterValue"
       (input)="onInput($any($event.target).value)"
-      type="text"
+      type="search"
       spellcheck="false"
       class="w-100"
       placeholder="Fischnamen eingeben..."
@@ -40,7 +40,8 @@
       <app-fish-card [fish]="fish"></app-fish-card>
       } @empty {
       <div class="ta-center mt-3 col-secondary grid-full-width">
-        Keine Fischart entsprach dem Filter <strong>{{ filterValue }}</strong>
+        Keine Treffer für "<strong>{{ filterValue }}</strong
+        >"
       </div>
       }
     </div>
