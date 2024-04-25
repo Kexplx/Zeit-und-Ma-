@@ -1,33 +1,17 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
-import { Fish } from '../data/fish.interface';
-import { FishingPeriodLightComponent } from './fishingPeriodLight/fishingPeriodLight.component';
+import { Fish } from '../../data/fish.interface';
 
 @Component({
-  selector: 'app-fish-card',
+  selector: 'app-fishing-period-light',
   standalone: true,
-  imports: [CommonModule, FishingPeriodLightComponent],
-  templateUrl: './fish-card.component.html',
-  styleUrl: './fish-card.component.css',
+  imports: [CommonModule],
+  templateUrl: './fishingPeriodLight.component.html',
+  styleUrl: './fishingPeriodLight.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FishCardComponent {
-  fish = input.required<Fish>();
-
-  minSize = computed(() => {
-    const { minSizeInCm } = this.fish();
-    return minSizeInCm === null ? 'Keines' : `${minSizeInCm} cm`;
-  });
-
-  noFishingPeriod = computed(() => {
-    const { noFishingPeriod } = this.fish();
-    return noFishingPeriod === null ? 'Keine' : noFishingPeriod;
-  });
-
-  catchmentAreas = computed(() => {
-    const { catchmentAreas } = this.fish();
-    return catchmentAreas.join(', ');
-  });
+export class FishingPeriodLightComponent {
+  readonly fish = input.required<Fish>();
 
   canBeFished = computed(() => {
     const { noFishingPeriod } = this.fish();
@@ -83,5 +67,33 @@ export class FishCardComponent {
 
     // Check if current date is within the no fishing period
     return !(currentDate >= startDate && currentDate <= endDate);
+  });
+
+  canSoonBeFished = computed(() => {
+    const { noFishingPeriod } = this.fish();
+
+    if (noFishingPeriod === null) {
+      return false; // Can always be fished
+    }
+
+    if (noFishingPeriod === 'Ganzjährig') {
+      return false; // Can never be fished
+    }
+
+    if (this.canBeFished()) {
+      return false; // Can now be fished
+    }
+
+    return true;
+  });
+
+  canNeverBeFished = computed(() => {
+    const { noFishingPeriod } = this.fish();
+
+    if (noFishingPeriod === 'Ganzjährig') {
+      return true; // Can never be fished
+    }
+
+    return false;
   });
 }

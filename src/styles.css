@@ -11,6 +11,10 @@ h1 {
   color: rgb(68, 67, 67);
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
 .mt-05 {
   margin-top: 5px;
 }
@@ -31,6 +35,10 @@ h1 {
   margin-left: 5px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .mb-05 {
   margin-bottom: 5px;
 }
@@ -47,7 +55,7 @@ h1 {
   max-width: 900px;
   margin: auto;
   padding: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .ta-center {
@@ -56,4 +64,32 @@ h1 {
 
 .w-100 {
   width: 100%;
+}
+
+small {
+  font-size: 12px;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+@media (max-width: 700px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 701px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: inherit;
+  }
 }

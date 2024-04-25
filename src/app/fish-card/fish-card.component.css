@@ -3,7 +3,7 @@
 }
 
 .card {
-  padding: 20px;
+  padding: 15px;
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
     rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   border-radius: 5px;
@@ -35,10 +35,19 @@ img {
   font-size: 12px;
 }
 
-.bg-red {
-  box-shadow: #e74c3c 0px 0px 0px 2px;
+.badge {
+  font-size: 10px;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-weight: 600;
 }
 
-.bg-green {
-  box-shadow: #27ae60 0px 0px 0px 2px;
+.can-be-fished-badge {
+  background-color: #27ae60;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.can-not-be-fished-badge {
+  background-color: #e74c3c;
 }
