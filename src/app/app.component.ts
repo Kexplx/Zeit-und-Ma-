@@ -18,6 +18,17 @@ export class AppComponent {
   filterValue = '';
 
   onInput(val: string): void {
+    val = val.trim();
+
+    if (val === '') {
+      this.filteredFishes = [...this.fishes];
+      return;
+    }
+
+    if (val.endsWith(' ')) {
+      return;
+    }
+
     const cleanFn = (s: string) =>
       s
         .toLowerCase()
@@ -26,7 +37,13 @@ export class AppComponent {
         .replaceAll('ö', 'oe')
         .replaceAll('ü', 'ue')
         .replaceAll('ß', 'ss');
-    const valCleaned = cleanFn(val);
-    this.filteredFishes = this.fishes.filter(f => cleanFn(f.name).includes(valCleaned));
+
+    // Split the cleaned input into an array of search terms
+    const searchTerms = val.split(/\s+/).map(term => cleanFn(term));
+
+    this.filteredFishes = this.fishes.filter(fish =>
+      // Check if any of the search terms is included in the fish's name
+      searchTerms.some(term => cleanFn(fish.name).includes(term)),
+    );
   }
 }
