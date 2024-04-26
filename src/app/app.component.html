@@ -22,15 +22,21 @@
   </section>
 
   <!-- Fish Search -->
-  <section>
+  <section class="fish-search">
     <input
       [(ngModel)]="filterValue"
       (input)="onInput($any($event.target).value)"
-      type="search"
       spellcheck="false"
       class="w-100"
-      placeholder="'karpfen' oder 'hecht zander barsch'"
+      placeholder="'hecht' oder 'hecht zander barsch'"
+      #filterInput
     />
+
+    @if (filterValue) {
+    <div title="Eingabe löschen" (click)="onClear()" class="clear-button">
+      <img src="assets/img/fish-clear.webp" alt="Fish eating letters" />
+    </div>
+    }
   </section>
 
   <!-- Fish List -->

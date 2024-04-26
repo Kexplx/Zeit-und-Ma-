@@ -30,3 +30,19 @@ a {
 .grid-full-width {
   grid-column: 1 / -1;
 }
+
+.fish-search {
+  position: relative;
+}
+
+.clear-button {
+  position: absolute;
+  right: 5%;
+  top: 18%;
+  cursor: pointer;
+}
+
+.clear-button img {
+  width: 35px;
+  transform: rotate(24deg);
+}
