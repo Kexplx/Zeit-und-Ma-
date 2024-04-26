@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1714164222404,
+  "timestamp": 1714164563597,
   "index": "https://kexplx.github.io/zeit-und-mass/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "https://kexplx.github.io/zeit-und-mass/favicon.ico",
         "https://kexplx.github.io/zeit-und-mass/index.html",
-        "https://kexplx.github.io/zeit-und-mass/main-I7UIQ2XH.js",
+        "https://kexplx.github.io/zeit-und-mass/main-HSFBREXK.js",
         "https://kexplx.github.io/zeit-und-mass/manifest.webmanifest",
         "https://kexplx.github.io/zeit-und-mass/polyfills-RT5I6R6G.js",
-        "https://kexplx.github.io/zeit-und-mass/styles-LXS5YDZ3.css"
+        "https://kexplx.github.io/zeit-und-mass/styles-6TB6TUV4.css"
       ],
       "patterns": []
     },
@@ -99,11 +99,11 @@
     "https://kexplx.github.io/zeit-und-mass/assets/img/fish_take_out.webp": "afc6defe85496e6a9f4af452fa13c52bf451284f",
     "https://kexplx.github.io/zeit-und-mass/assets/img/logo.webp": "b1c65388dfb8bfc6f071353bb6e83927906f822a",
     "https://kexplx.github.io/zeit-und-mass/favicon.ico": "5e910ed95f4f619b1a1d1123a0caded82816833e",
-    "https://kexplx.github.io/zeit-und-mass/index.html": "92dd998e618328395adb10b0a0bd9574fec1b533",
-    "https://kexplx.github.io/zeit-und-mass/main-I7UIQ2XH.js": "03f1a60dbe5c776d5c77f33f7bb759e7f38596d3",
+    "https://kexplx.github.io/zeit-und-mass/index.html": "1278bce06358b0c37cc4d4c99f34049644da35b8",
+    "https://kexplx.github.io/zeit-und-mass/main-HSFBREXK.js": "91789bc19fe3f3daae2906eee70ce7357db8550f",
     "https://kexplx.github.io/zeit-und-mass/manifest.webmanifest": "5206df461f416ed95c74b9cc373325ce97ac2fc4",
     "https://kexplx.github.io/zeit-und-mass/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
-    "https://kexplx.github.io/zeit-und-mass/styles-LXS5YDZ3.css": "512209d9514217b5f399884e159099cedca26dfe"
+    "https://kexplx.github.io/zeit-und-mass/styles-6TB6TUV4.css": "2edb45cdebf661073fbab1f8f384dd724bb39b51"
   },
   "navigationUrls": [
     {
