@@ -3,12 +3,14 @@ img {
 }
 
 input {
-  padding: 12px;
-  border: 2px solid rgba(136, 165, 191, 0.48);
+  padding: 16px;
+  border: none;
   font-size: 16px;
   border-radius: 5px;
   box-sizing: border-box;
   outline: none;
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 a {
