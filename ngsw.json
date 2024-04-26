@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1714076466669,
+  "timestamp": 1714138316184,
   "index": "https://kexplx.github.io/zeit-und-mass/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://kexplx.github.io/zeit-und-mass/favicon.ico",
         "https://kexplx.github.io/zeit-und-mass/index.html",
-        "https://kexplx.github.io/zeit-und-mass/main-636ONZXO.js",
+        "https://kexplx.github.io/zeit-und-mass/main-IKGNHLGW.js",
         "https://kexplx.github.io/zeit-und-mass/manifest.webmanifest",
         "https://kexplx.github.io/zeit-und-mass/polyfills-RT5I6R6G.js",
         "https://kexplx.github.io/zeit-und-mass/styles-LXS5YDZ3.css"
@@ -55,6 +55,7 @@
         "https://kexplx.github.io/zeit-und-mass/assets/icons/80.png",
         "https://kexplx.github.io/zeit-und-mass/assets/icons/87.png",
         "https://kexplx.github.io/zeit-und-mass/assets/img/base.png",
+        "https://kexplx.github.io/zeit-und-mass/assets/img/fish-clear.webp",
         "https://kexplx.github.io/zeit-und-mass/assets/img/fish_leave_in.webp",
         "https://kexplx.github.io/zeit-und-mass/assets/img/fish_sad.webp",
         "https://kexplx.github.io/zeit-und-mass/assets/img/fish_take_out.webp",
@@ -92,13 +93,14 @@
     "https://kexplx.github.io/zeit-und-mass/assets/icons/80.png": "fee1b2a617842c9939781f3ea8a371f1dd1f75e0",
     "https://kexplx.github.io/zeit-und-mass/assets/icons/87.png": "b9671d80211c1c0a69e0d8837f693a447c04bf0a",
     "https://kexplx.github.io/zeit-und-mass/assets/img/base.png": "6acb6757884eafaeaebdcf997740939011e2d97d",
+    "https://kexplx.github.io/zeit-und-mass/assets/img/fish-clear.webp": "177b42d8f6baf9c1a2cdb7663867a1ad6a8e7130",
     "https://kexplx.github.io/zeit-und-mass/assets/img/fish_leave_in.webp": "c0f727f323a9f6098bdedef6cecd10258ef6e5fe",
     "https://kexplx.github.io/zeit-und-mass/assets/img/fish_sad.webp": "76822af043303a3bcbfad41df41507f51177f3da",
     "https://kexplx.github.io/zeit-und-mass/assets/img/fish_take_out.webp": "afc6defe85496e6a9f4af452fa13c52bf451284f",
     "https://kexplx.github.io/zeit-und-mass/assets/img/logo.webp": "b1c65388dfb8bfc6f071353bb6e83927906f822a",
     "https://kexplx.github.io/zeit-und-mass/favicon.ico": "5e910ed95f4f619b1a1d1123a0caded82816833e",
-    "https://kexplx.github.io/zeit-und-mass/index.html": "1c2144ee4dcf998a3d65626e92ad97bce7d0846a",
-    "https://kexplx.github.io/zeit-und-mass/main-636ONZXO.js": "7475858ee5e659ae5acf584e4ea199345b26c90a",
+    "https://kexplx.github.io/zeit-und-mass/index.html": "a5c221c5df8e1e5de520f16ad42fca3466fa1a3e",
+    "https://kexplx.github.io/zeit-und-mass/main-IKGNHLGW.js": "cc7207d17a3a95d5f3fe963d2fbad90621b91e1d",
     "https://kexplx.github.io/zeit-und-mass/manifest.webmanifest": "5206df461f416ed95c74b9cc373325ce97ac2fc4",
     "https://kexplx.github.io/zeit-und-mass/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
     "https://kexplx.github.io/zeit-und-mass/styles-LXS5YDZ3.css": "512209d9514217b5f399884e159099cedca26dfe"
