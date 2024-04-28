@@ -27,10 +27,12 @@
       <strong>Einzugsgebiete(e): </strong>
       <span>{{ catchmentAreas() }}</span>
     </div>
+    @if (hasImage()) {
     <div class="mt-05">
       <strong>Bild: </strong>
       <u style="cursor: pointer" (click)="isImageViewerOpen = true">Hier klicken</u>
     </div>
+    }
   </div>
 </div>
 

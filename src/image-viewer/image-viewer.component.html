@@ -4,5 +4,5 @@
       <strong>{{ imageTitle() }}</strong>
     </p>
   </div>
-  <img [src]="imageUrl()" alt="Fish" class="fullscreen-image" />
+  <img (load)="imageLoaded = true" [src]="imageUrl()" alt="Fish" class="fullscreen-image" />
 </div>

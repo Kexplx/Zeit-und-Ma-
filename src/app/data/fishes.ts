@@ -8,7 +8,7 @@ export const fishes: Fish[] = [
     minSizeInCm: 50,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://www.netzwerk-angeln.de/images/inhalt/angelpraxis/fischverwertung/aal_toeten_ausnehmen/02_aale_toeten_und_ausnehmen.jpg',
   },
   {
     name: 'Döbel/Aitel',
@@ -16,8 +16,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.arge-ahr.de/wp-content/uploads/2022/01/Doebel-low-1210x423.jpg',
   },
   {
     name: 'Ammersee-Kaulbarsch',
@@ -26,7 +25,7 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://www.petri-heil.ch/assets/cache/1920/x/media/Artikel/2017/01/Barsch/Kaulbarsch_CRatschan.jpg',
   },
   {
     name: 'Äsche',
@@ -34,8 +33,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Januar - 30. April',
     minSizeInCm: 35,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://media04.lokalkompass.de/article/2015/02/20/0/6710700_XXL.jpg',
   },
   {
     name: 'Atlantischer Lachs',
@@ -43,8 +41,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://forellen-angeln.de/wp-content/uploads/2022/03/atlantischer-lachs.jpg',
   },
   {
     name: 'Bachforelle',
@@ -52,8 +49,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Oktober - 15. März',
     minSizeInCm: 26,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.arge-ahr.de/wp-content/uploads/2022/01/Bachforelle-low.jpg',
   },
   {
     name: 'Bachneunauge',
@@ -61,8 +57,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Bachneunauge1.jpg',
   },
   {
     name: 'Bachsaibling',
@@ -70,8 +65,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Bachsaibling1.jpg',
   },
   {
     name: 'Balkan-Goldsteinbeißer',
@@ -79,8 +73,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.hlasek.com/foto/sabanejewia_aurata_hf0867.jpg',
   },
   {
     name: 'Barbe',
@@ -88,8 +81,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Mai - 30. Juni',
     minSizeInCm: 40,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://pro-fishing.de/blog/wp-content/uploads/2018/03/barbe.jpg',
   },
   {
     name: 'Bitterling',
@@ -97,8 +89,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2021/09/bitterling.jpeg',
   },
   {
     name: 'Brasse/Brachse',
@@ -106,8 +97,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.simfisch.de/wp-content/uploads/2021/04/brassen2.jpg',
   },
   {
     name: 'Donau-Neunauge',
@@ -115,8 +105,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fischlexikon.eu/images/fischlexikon/galerie/donauneunauge-01.jpg',
   },
   {
     name: 'Donau-Steinbeißer',
@@ -124,8 +113,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: null,
   },
   {
     name: 'Donaukaulbarsch',
@@ -133,8 +121,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fischlexikon.eu/images/fischlexikon/galerie/donaukaulbarsch-01.jpg',
   },
   {
     name: 'Donaustromgründling',
@@ -143,7 +130,7 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://lfvbayern.de/wp-content/uploads/2015/03/Donaustromgruendling-Wei%C3%9Fflossengruendling-560x373.jpg',
   },
   {
     name: 'Flussbarsch',
@@ -152,7 +139,7 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://schonzeitvertreib.de/wp-content/uploads/2021/05/Flussbarsch-Vorab-Header.jpeg',
   },
   {
     name: 'Flussneunauge',
@@ -160,8 +147,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: null,
   },
   {
     name: 'Frauennerfling',
@@ -169,8 +155,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Frauennerfling-560x373.jpg',
   },
   {
     name: 'Giebel',
@@ -178,8 +163,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Giebel.jpg',
   },
   {
     name: 'Gründling',
@@ -187,8 +171,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2021/09/gruendling.jpg',
   },
   {
     name: 'Güster',
@@ -196,8 +179,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2021/08/guester.jpg',
   },
   {
     name: 'Hecht',
@@ -206,7 +188,7 @@ export const fishes: Fish[] = [
     minSizeInCm: 50,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://t3.ftcdn.net/jpg/02/33/05/32/360_F_233053299_j3RIYkhW11Tk4tNIOQVTrBe37wMR7DBg.jpg',
   },
   {
     name: 'Huchen',
@@ -215,7 +197,7 @@ export const fishes: Fish[] = [
     minSizeInCm: 90,
     catchmentAreas: ['Donau'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Danube_Salmon_-_Huchen_%28Hucho_hucho%29.jpg/1200px-Danube_Salmon_-_Huchen_%28Hucho_hucho%29.jpg',
   },
   {
     name: 'Karausche',
@@ -223,8 +205,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/M%C3%A4nnliche_Karausche.jpg',
   },
   {
     name: 'Karpfen',
@@ -233,7 +214,7 @@ export const fishes: Fish[] = [
     minSizeInCm: 35,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://media.istockphoto.com/id/519920656/de/foto/wild-gemeinsamen-karpfen.jpg?s=612x612&w=0&k=20&c=osF6vtW0xspLDVouS1wUUrKjirXJQ5jdf11nz0Jmk7M=',
   },
   {
     name: 'Kaulbarsch',
@@ -242,25 +223,23 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gymnocephalus_cernuus_P%C3%A4rnu_River_Estonia_2010-01-06.jpg/1200px-Gymnocephalus_cernuus_P%C3%A4rnu_River_Estonia_2010-01-06.jpg',
   },
   {
-    name: 'Kilch (Ammersee)',
+    name: 'Ammersee-Kilch',
     latinName: 'Coregonus bavaricus',
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fischlexikon.eu/images/fischlexikon/galerie/coregonus-bavaricus-01.jpg',
   },
   {
-    name: 'Kilch (Bodensee)',
+    name: 'Bodensee-Kilch',
     latinName: 'Coregonus gutturosus',
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Rhein'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.artensterben.de/wp-content/uploads/2018/03/kilch-800x510.jpg',
   },
   {
     name: 'Laube',
@@ -268,8 +247,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Laube.jpg',
   },
   {
     name: 'Maifisch',
@@ -278,7 +256,7 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://www.umwelt-campus.de/fileadmin/_processed_/f/b/csm_20R1_Ladenburg_trap_Claus_Neuer_1499a2e9fc.jpg',
   },
   {
     name: 'Mairenke',
@@ -286,8 +264,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Mai - 30. Juni',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fischlexikon.eu/images/fischlexikon/galerie/alburnus-chalcoides-01.jpg',
   },
   {
     name: 'Meerforelle',
@@ -295,8 +272,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.first-cast.de/Bilder3/Mefostadien/Ueberspringer.jpg',
   },
   {
     name: 'Meerneunauge',
@@ -304,8 +280,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.pivi.de/wp-content/uploads/2020/07/stemmer_meerneunauge.jpg',
   },
   {
     name: 'Moderlieschen',
@@ -313,8 +288,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.pivi.de/wp-content/uploads/2020/08/Moderlieschen2_R_Berg.jpg',
   },
   {
     name: 'Mühlkoppe',
@@ -322,8 +296,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Februar - 30. April',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.arge-ahr.de/wp-content/uploads/2022/01/Muehlkoppe-low.jpg',
   },
   {
     name: 'Nase',
@@ -331,8 +304,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. März - 30. April',
     minSizeInCm: 30,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fischlexikon.eu/images/fischlexikon/galerie/nase-01.jpg',
   },
   {
     name: 'Aland/Nerfling',
@@ -341,7 +313,7 @@ export const fishes: Fish[] = [
     minSizeInCm: 30,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://pro-fishing.de/blog/wp-content/uploads/2018/08/Orfe-in-Fischers-Hand-Aland-im-FIschportrait.jpg',
   },
   {
     name: 'Nordseeschnäpel',
@@ -349,8 +321,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://junior-ranger.de/files/2020/02/sch%C3%B6pfung.eu_-747x498.jpg',
   },
   {
     name: 'Perlfisch',
@@ -358,8 +329,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Perlfisch_Ratschan.jpg',
   },
   {
     name: 'Regenbogenforelle',
@@ -367,8 +337,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '15. Dezember - 15. März',
     minSizeInCm: 26,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fische-arten.de/wp-content/uploads/2021/10/lachsforelle-groesse.jpg',
   },
   {
     name: 'Renken/Felchen',
@@ -376,8 +345,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '15. Oktober - 31. Dezember',
     minSizeInCm: 30,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Renke.jpg',
   },
   {
     name: 'Rotauge',
@@ -385,8 +353,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.angelwahn.de/wp-content/uploads/rotauge.jpg',
   },
   {
     name: 'Rotfeder',
@@ -394,8 +361,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.angelwahn.de/wp-content/uploads/rotfeder.jpg',
   },
   {
     name: 'Rutte/Quappe/Trüsche',
@@ -403,17 +369,15 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: 40,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://forum.angelsport.de/pics/faq/quappe.jpg',
   },
   {
-    name: 'Schied/Rapfen',
+    name: 'Rapfen/Schied',
     latinName: 'Leuciscus aspius',
     noFishingPeriod: '1. März - 30. April',
     minSizeInCm: 40,
     catchmentAreas: ['Donau', 'Rhein'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Rapfen.jpg',
   },
   {
     name: 'Schlammpeitzger',
@@ -421,8 +385,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Schlammpeitzger.jpg',
   },
   {
     name: 'Schleie',
@@ -430,8 +393,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Mai - 30. Juni',
     minSizeInCm: 26,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2021/08/schleie-kescher-1130x753.jpg',
   },
   {
     name: 'Schmerle',
@@ -439,8 +401,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Wilhelma_Schmerle.jpg',
   },
   {
     name: 'Schneider',
@@ -448,8 +409,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Schneider.jpg',
   },
   {
     name: 'Schrätzer',
@@ -457,8 +417,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Schraetzer.jpg',
   },
   {
     name: 'Seeforelle',
@@ -466,8 +425,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Oktober - 15. März',
     minSizeInCm: 60,
     catchmentAreas: ['Donau', 'Rhein'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2021/10/seeforelle-1.jpg',
   },
   {
     name: 'Seesaibling',
@@ -475,17 +433,15 @@ export const fishes: Fish[] = [
     noFishingPeriod: '1. Oktober - 31. Dezember',
     minSizeInCm: 30,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://forelle.net/wp-content/uploads/2017/11/seesaibling.jpg',
   },
   {
-    name: 'Sichling',
+    name: 'Ziege/Sichling',
     latinName: 'Pelecus cultratus',
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.fischlexikon.eu/images/fischlexikon/galerie/pelecus-cultratus-01.jpg',
   },
   {
     name: 'Steinbeißer',
@@ -493,8 +449,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2022/10/steinbeisser-fisch.jpg',
   },
   {
     name: 'Steingressling',
@@ -503,7 +458,7 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://nwv-schwaben.de/files/Naturfotografie/Artenpool/Zoologie/Fische/Karpfenfische/Kleinfische/Steingressling/20091112_Steingressling_2.jpg',
   },
   {
     name: 'Sterlet',
@@ -511,8 +466,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Acipenser_ruthenus_1.jpg',
   },
   {
     name: 'Stichling (3-stachl.)',
@@ -521,7 +475,7 @@ export const fishes: Fish[] = [
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://www.deutschlands-natur.de/img/visuals/suesswasserfische/dreistachliger-stichling.jpg',
   },
   {
     name: 'Stichling (9stachl.)',
@@ -529,8 +483,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Pungitius_pungitius.jpg',
   },
   {
     name: 'Stör',
@@ -538,8 +491,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.simfisch.de/wp-content/uploads/2019/01/stoer-angeln.jpg',
   },
   {
     name: 'Streber',
@@ -547,8 +499,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Streber.jpg',
   },
   {
     name: 'Strömer',
@@ -556,8 +507,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Rhein'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Stroemer.jpg',
   },
   {
     name: 'Wels/Waller',
@@ -565,8 +515,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://angelmagazin.de/wp-content/uploads/2021/08/wels.jpg',
   },
   {
     name: 'Zährte/Seerüssling',
@@ -574,8 +523,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: null,
     minSizeInCm: null,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://www.angelwahn.de/wp-content/uploads/zaehrte.jpg',
   },
   {
     name: 'Zander',
@@ -584,7 +532,7 @@ export const fishes: Fish[] = [
     minSizeInCm: 50,
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+      'https://warehouse1.indicia.org.uk/upload/16/53/24/o_1g3mi2qn433v10uu16qg1ij58rhb.jpg',
   },
   {
     name: 'Zingel',
@@ -592,8 +540,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Zingel.jpg',
   },
   {
     name: 'Zobel',
@@ -601,8 +548,7 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Zobel.jpg',
   },
   {
     name: 'Zope',
@@ -610,7 +556,6 @@ export const fishes: Fish[] = [
     noFishingPeriod: 'Ganzjährig',
     minSizeInCm: null,
     catchmentAreas: ['Donau'],
-    imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europ%C3%A4ischer_Hecht.jpg/1280px-Europ%C3%A4ischer_Hecht.jpg',
+    imageUrl: 'https://lfvbayern.de/wp-content/uploads/2021/02/Zope-scaled.jpg',
   },
 ];

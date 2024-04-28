@@ -93,8 +93,18 @@ export class FishCardComponent {
     return !(currentDate >= startDate && currentDate <= endDate);
   });
 
+  hasImage = computed(() => {
+    const { imageUrl } = this.fish();
+
+    return !!imageUrl;
+  });
+
   imageUrl = computed(() => {
     const { imageUrl: dirtyUrl } = this.fish();
+
+    if (dirtyUrl === null) {
+      return '';
+    }
     const cleanUrl = this.urlSantitizer.sanitize(
       SecurityContext.URL,
       this.urlSantitizer.bypassSecurityTrustUrl(dirtyUrl),

@@ -21,5 +21,10 @@
 
 .fullscreen-image {
   max-width: 95%; /* Adjust as needed */
+  max-height: 90vh;
   border-radius: 10px;
+}
+
+.loading-text {
+  color: lightgray;
 }

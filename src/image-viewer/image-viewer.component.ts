@@ -22,6 +22,8 @@ export class ImageViewerComponent implements OnInit, OnDestroy {
   imageTitle = input.required<string>();
   imageUrl = input.required<string>();
 
+  imageLoaded = false;
+
   @HostListener('document:keydown.escape', ['$event'])
   onKeydownHandler() {
     this.close.emit();
