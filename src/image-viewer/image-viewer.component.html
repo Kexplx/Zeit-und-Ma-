@@ -4,5 +4,8 @@
       <strong>{{ imageTitle() }}</strong>
     </p>
   </div>
+  @if (!imageLoaded) {
+  <p style="color: lightgray">Wird geladen...</p>
+  }
   <img (load)="imageLoaded = true" [src]="imageUrl()" alt="Fish" class="fullscreen-image" />
 </div>
