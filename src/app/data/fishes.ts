@@ -9,7 +9,7 @@ export const fishes: Fish[] = [
     catchmentAreas: ['Elbe', 'Rhein', 'Weser'],
   },
   {
-    name: 'Aitel/Döbel',
+    name: 'Döbel/Aitel',
     latinName: 'Squalius cephalus',
     noFishingPeriod: null,
     minSizeInCm: null,
@@ -261,7 +261,7 @@ export const fishes: Fish[] = [
     catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
   },
   {
-    name: 'Nerfling',
+    name: 'Aland/Nerfling',
     latinName: 'Leuciscus idus',
     noFishingPeriod: '1. März - 30. April',
     minSizeInCm: 30,
