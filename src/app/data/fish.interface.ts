@@ -6,4 +6,5 @@ export interface Fish {
   noFishingPeriod: string | null;
   minSizeInCm: number | null;
   catchmentAreas: River[];
+  imageUrl: string;
 }

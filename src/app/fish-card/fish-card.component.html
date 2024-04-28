@@ -2,7 +2,7 @@
   <div class="card-title mb-2">
     <div>
       <div>
-        <span>{{ fish().name }} </span>
+        <strong>{{ fish().name }} </strong>
       </div>
       <div class="lh-1">
         <small class="col-secondary">{{ fish().latinName }}</small>
@@ -27,5 +27,17 @@
       <strong>Einzugsgebiete(e): </strong>
       <span>{{ catchmentAreas() }}</span>
     </div>
+    <div class="mt-05">
+      <strong>Bilder: </strong>
+      <a (click)="isImageViewerOpen = true" href="#">Hier klicken</a>
+    </div>
   </div>
 </div>
+
+@if (isImageViewerOpen) {
+<app-image-viewer
+  (close)="isImageViewerOpen = false"
+  [imageUrl]="imageUrl()"
+  [imageTitle]="fish().name"
+></app-image-viewer>
+}

@@ -7,6 +7,10 @@ h1 {
   margin: 0;
 }
 
+a {
+  color: black;
+}
+
 .col-secondary {
   color: rgb(75, 75, 75);
 }
@@ -54,7 +58,7 @@ h1 {
 .container {
   max-width: 900px;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   padding-top: 50px;
 }
 

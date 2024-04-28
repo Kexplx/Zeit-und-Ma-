@@ -1,12 +1,20 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  SecurityContext,
+  computed,
+  input,
+} from '@angular/core';
 import { Fish } from '../data/fish.interface';
 import { FishingPeriodLightComponent } from './fishingPeriodLight/fishingPeriodLight.component';
+import { ImageViewerComponent } from '../../image-viewer/image-viewer.component';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-fish-card',
   standalone: true,
-  imports: [CommonModule, FishingPeriodLightComponent],
+  imports: [CommonModule, FishingPeriodLightComponent, ImageViewerComponent],
   templateUrl: './fish-card.component.html',
   styleUrl: './fish-card.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -84,4 +92,18 @@ export class FishCardComponent {
     // Check if current date is within the no fishing period
     return !(currentDate >= startDate && currentDate <= endDate);
   });
+
+  imageUrl = computed(() => {
+    const { imageUrl: dirtyUrl } = this.fish();
+    const cleanUrl = this.urlSantitizer.sanitize(
+      SecurityContext.URL,
+      this.urlSantitizer.bypassSecurityTrustUrl(dirtyUrl),
+    );
+
+    return cleanUrl!;
+  });
+
+  isImageViewerOpen = false;
+
+  constructor(private urlSantitizer: DomSanitizer) {}
 }

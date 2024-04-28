@@ -3,11 +3,18 @@ import { RouterOutlet } from '@angular/router';
 import { fishes } from './data/fishes';
 import { FishCardComponent } from './fish-card/fish-card.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ImageViewerComponent } from '../image-viewer/image-viewer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FishCardComponent, FormsModule, ReactiveFormsModule],
+  imports: [
+    RouterOutlet,
+    FishCardComponent,
+    FormsModule,
+    ImageViewerComponent,
+    ReactiveFormsModule,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
