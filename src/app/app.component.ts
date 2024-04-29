@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, NgModuleRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { fishes } from './data/fishes';
 import { FishCardComponent } from './fish-card/fish-card.component';
@@ -21,7 +21,7 @@ import { ImageViewerComponent } from '../image-viewer/image-viewer.component';
 export class AppComponent {
   @ViewChild('filterInput') filterInput?: ElementRef<HTMLInputElement>;
 
-  readonly fishes = fishes;
+  readonly fishes = fishes.sort((a, b) => a.name.localeCompare(b.name));
   filteredFishes = this.fishes;
 
   filterValue = '';

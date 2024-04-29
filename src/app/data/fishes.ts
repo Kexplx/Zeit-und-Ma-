@@ -348,7 +348,7 @@ export const fishes: Fish[] = [
     imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Renke.jpg',
   },
   {
-    name: 'Rotauge',
+    name: 'Rotauge/Plötze',
     latinName: 'Rutilus rutilus',
     noFishingPeriod: null,
     minSizeInCm: null,
