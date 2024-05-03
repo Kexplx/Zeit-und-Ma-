@@ -420,6 +420,15 @@ export const fishes: Fish[] = [
     imageUrl: 'https://lfvbayern.de/wp-content/uploads/2015/03/Schraetzer.jpg',
   },
   {
+    name: 'Schwarzmund-Grundel',
+    latinName: 'Neogobius melanostomus',
+    noFishingPeriod: null,
+    minSizeInCm: null,
+    catchmentAreas: ['Donau', 'Elbe', 'Rhein', 'Weser'],
+    imageUrl:
+      'https://img.luzernerzeitung.ch/2020/10/7/120cdaae-f997-49fb-a276-cee39d025457.jpeg?width=1200&height=675&fit=bound&quality=75&auto=webp&crop=2000,1125,x0,y104&wmark=none',
+  },
+  {
     name: 'Seeforelle',
     latinName: 'Salmo trutta forma lacustris',
     noFishingPeriod: '1. Oktober - 15. März',
